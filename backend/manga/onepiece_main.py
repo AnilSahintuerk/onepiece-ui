@@ -2,7 +2,7 @@ from extensions import OPManga
 from opmangabot import manga_email
 
 
-chapter = 1035
+chapter = 1036
 
 OPManga.OPMake().make_chapter(chapter)
 
