@@ -3,13 +3,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-import csv
 import os
-import shutil
 
 
 def main(email, chapter):
-
+    
     sender = 'onepiece.manga.bot@gmail.com'
     password = 'Trafalgarlaw'
     body = 'Viel spaß beim lesen'
